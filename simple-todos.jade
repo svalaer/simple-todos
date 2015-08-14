@@ -16,7 +16,7 @@ body
         each tasks
           +task
 
-template(name="tasks")
+template(name="task")
   li(class="{{#if checked}}checked{{/if}} {{#if private}}private{{/if}}")
     button.delete &times;
     input.toggle-checked(type="checkbox" checked="{{checked}}")
