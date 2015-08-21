@@ -1,5 +1,5 @@
 describe 'client side todo-list testing', () ->
-	describe 'body helper test for task hider button', () ->
+	describe 'body helper tests for task hider button', () ->
 		Meteor.subscribe 'tasks'
 
 		Template.body.helpers
