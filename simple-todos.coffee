@@ -95,6 +95,12 @@ Meteor.methods
       throw new (Meteor.Error)('not-authorized')
     Tasks.update taskId, $set: private: setToPrivate
 
+  Createbug: () ->
+    dingdong.insert
+      text: love
+
+
+
 
 
 
