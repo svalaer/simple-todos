@@ -18,3 +18,6 @@ describe 'client side todo-list testing', () ->
 				Session.get 'hideCompleted'
 			incompleteCount: ->
 				Tasks.find(checked: $ne: true).count()
+				
+			FaultyFunction: ->
+				Tasks.find(checked: true).count()
