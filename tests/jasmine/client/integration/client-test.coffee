@@ -19,4 +19,5 @@ describe 'client side todo-list testing', () ->
 			incompleteCount: ->
 				Tasks.find(checked: $ne: true).count()
 				
-			
+			testFunction: ->
+				Tasks.find(checked:true)
